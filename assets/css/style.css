@@ -1,0 +1,120 @@
+* {
+	outline: none !important;
+	text-decoration: none !important;
+}
+.jetgo-app {
+	max-width: 767px;
+	margin: 0 auto;
+	box-shadow: 0 -5px 5px 0 #d9e8ff;
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 100%;
+	background: #fff;
+}
+.app-bg {
+	background: #0066ff !important;
+}
+.app-color {
+	color: #0066ff !important
+}
+button {
+	cursor: pointer;
+	background: transparent;
+}
+.app-btn, .app-btn-alt {
+	border-color: #0066ff !important;
+}
+.app-btn {
+	color: #0066ff !important;
+	background: #fff;
+}
+.app-btn.active {
+	color: #fff !important;
+	background: #0066ff;
+}
+.app-btn:hover {
+	background: #e6f0ff;
+	color: #0066ff !important;
+}
+.app-shadow {
+	box-shadow: 5px 8px 15px 5px #d9e8ff;
+}
+.cursor-pointer{
+	cursor: pointer;
+}
+.jetgo-app .container {
+	max-width: 100% !important;
+}
+header .float-right.h4.mb-0.position-absolute {
+	right: 15px;
+	top: 10px;
+}
+#mainmenu {
+	z-index: 2;
+}
+#mainmenu .collapse.show {
+	min-width: 200px;
+	box-shadow: 5px 5px 10px 0 #d9e8ff;
+}
+#mainmenu a {
+	padding: 8px 0;
+	display: block;
+	text-transform: uppercase;
+}
+#mainmenu a.active, #mainmenu a:hover, {
+	background: #d9e8ff;
+}
+.modal-dialog * {
+	border: none;
+	border-radius: 0;
+	font-size: 1.25rem !important;
+}
+.modal-header .close {
+	opacity: 1;
+}
+.modal-body .p-1.border.rounded {
+	display: block;
+	overflow: hidden;
+	padding-bottom: 15px !important;
+}
+#filterModal .modal-body {
+	padding-left: 15%;
+}
+#filterModal .modal-body span {
+	font-size: 16px !important;
+}
+#orderDetails .modal-body span, #orderDetails .form p {
+	font-size: 13px !important;
+}
+#orderDetails .fas.fa-arrow-left {
+	font-size: 45px !important;
+}
+#statusChangeNote textarea {
+	resize: none;
+	background: #d9e8ff;
+	box-shadow: none;
+}
+#statusChangeNote button[type="submit"] {
+	border-radius: 50px;
+	background: #d9e8ff;
+	font-size: 12px !important;
+}
+.search-form .input-group-text, .search-form .form-control {
+	border: none;
+	box-shadow: none;
+	background: transparent;
+}
+.search-form .input-group {
+	background: #d9e8ff;
+	border-radius: 50px;
+}
+#footer {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #f1f6ff;
+	box-shadow: 0 0 20px 0 #d9e8ff;
+	padding-top: 15px;
+}
